@@ -1,0 +1,4 @@
+﻿TODO LIST:
+
+* Highlight the local user in the online users list.
+
