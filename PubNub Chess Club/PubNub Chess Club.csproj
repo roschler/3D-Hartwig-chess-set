@@ -22,6 +22,29 @@
     <Content Include="css\chess_app.css" />
     <Content Include="css\chess_styles.css" />
     <Content Include="css\main.css" />
+    <Content Include="img\ajax-loader.gif" />
+    <Content Include="img\apple-touch-icon.png" />
+    <Content Include="img\back.jpg" />
+    <Content Include="img\classic-frame-border-off.png" />
+    <Content Include="img\classic-frame-border.png" />
+    <Content Include="img\classic-frame.png" />
+    <Content Include="img\classic-piece-black.png" />
+    <Content Include="img\classic-piece-white.png" />
+    <Content Include="img\classic-sphere-black.png" />
+    <Content Include="img\classic-sphere-white.png" />
+    <Content Include="img\classic-square-black.png" />
+    <Content Include="img\classic-square-white.png" />
+    <Content Include="img\icons.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\marble-frame-border-off.png" />
+    <Content Include="img\marble-frame-border.png" />
+    <Content Include="img\marble-frame.png" />
+    <Content Include="img\marble-piece-black.png" />
+    <Content Include="img\marble-piece-white.png" />
+    <Content Include="img\marble-sphere-black.png" />
+    <Content Include="img\marble-sphere-white.png" />
+    <Content Include="img\marble-square-black.png" />
+    <Content Include="img\marble-square-white.png" />
     <Content Include="index.html" />
     <Content Include="js\chess_app.js" />
     <Content Include="js\pubnub_lobby_app.js" />
@@ -31,7 +54,12 @@
     <Content Include="js\pubnub_chess.js" />
     <Content Include="js\pubnub_lobby_and_chat.js" />
     <Content Include="js\chess_scripts.min.js" />
-    <Content Include="Notes\NOTES_pubnub_chess_club.txt" />
+    <Content Include="mckps\fw-back.png" />
+    <Content Include="mckps\fw-classic.png" />
+    <Content Include="mckps\fw-game.png" />
+    <Content Include="mckps\fw-icons.png" />
+    <Content Include="mckps\fw-logo.png" />
+    <Content Include="mckps\fw-marble.png" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -46,7 +74,9 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Notes\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
