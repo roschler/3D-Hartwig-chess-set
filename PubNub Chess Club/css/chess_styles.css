@@ -1301,3 +1301,18 @@ tfoot th:last-child   { background-position: right bottom; background-size: 332%
   #logo { font-size: 12px }
   .loading #overlay { background-position: 50% 80%; }
 }
+
+/* ATI: Add the "will-change: transform;" attribute to all members of the
+    "photon-shader" class to see if it fixes the problems with Chrome */
+.photon-shader {
+  will-change: transform;
+}
+
+.piece {
+  will-change: transform;
+}
+
+.square {
+  will-change: transform;
+}
+
